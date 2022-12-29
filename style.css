@@ -1,0 +1,48 @@
+/* CSS RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+section .has-img {
+  flex: 1;
+  padding: 1rem;
+}
+
+section .has-text {
+  flex: 1;
+  padding: 2rem;
+}
+
+section .has-img {
+  padding: 3rem;
+}
+
+section img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+section .copy {
+  line-height: 1.6;
+  max-width: 60ch;
+  margin-bottom: 2rem;
+}
+
+section button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+}
